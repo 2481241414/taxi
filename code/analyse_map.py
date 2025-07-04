@@ -80,6 +80,8 @@ if __name__ == '__main__':
     # analyse(file_path=f'/home/workspace/lgq/data/inference/20250620/v1.0/打车语料2.0(多轮query)_sft_inference_results_0620.csv', version='1.0')
     # analyse(file_path=f'/home/workspace/lgq/data/inference/20250625/v1.0/test_dataset_05_inference_results_0625.csv', version='v1.0')
     # analyse(file_path=f'/home/workspace/lgq/data/inference/20250625/v2.0/打车语料-2.0版-624-zhao - 车型理解_inference_results_0625.csv', version='v2.0')
-    analyse(file_path=f'/home/workspace/lgq/data/inference/20250625/v2.0/test_dataset_05_inference_results_0625.csv', version='v2.0')
+    # analyse(file_path=f'/home/workspace/lgq/data/inference/20250625/v2.0/test_dataset_05_inference_results_0625.csv', version='v2.0')
+    # analyse(file_path=f'/home/workspace/lgq/data/inference/20250702/v1.0/test_dataset_05_inference_results_0702.csv', version='v1.0')
+    analyse(file_path=f'/home/workspace/lgq/data/inference/20250702/v1.0/打车语料-2.0版-624-zhao - 车型理解_inference_results_0702.csv', version='v1.0')
 
 

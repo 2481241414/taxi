@@ -30,8 +30,11 @@ import os
 # json_file = '/home/workspace/lgq/data/output/20250625/v4.2_FlexibleQueryCol/打车语料-2.0版-624-zhao - 车型理解_sft_output.json'
 # output_file = '/home/workspace/lgq/data/inference/20250625/v2.0/打车语料-2.0版-624-zhao - 车型理解_inference_results_0625.csv'
 
-json_file = '/home/workspace/lgq/data/output/20250625/v18.0_GTFallbackFix/test_dataset_05.json'
-output_file = '/home/workspace/lgq/data/inference/20250625/v2.0/test_dataset_05_inference_results_0625.csv'
+# json_file = '/home/workspace/lgq/data/output/20250625/v18.0_GTFallbackFix/test_dataset_05.json'
+# output_file = '/home/workspace/lgq/data/inference/20250702/v1.0/test_dataset_05_inference_results_0702.csv'
+
+json_file = '/home/workspace/lgq/data/output/20250625/v4.2_FlexibleQueryCol/打车语料-2.0版-624-zhao - 车型理解_sft_output.json'
+output_file = '/home/workspace/lgq/data/inference/20250702/v1.0/打车语料-2.0版-624-zhao - 车型理解_inference_results_0702.csv'
 
 def extract_query(text):
     """
