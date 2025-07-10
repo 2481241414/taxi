@@ -17,7 +17,7 @@ client = OpenAI(
 )
 
 # --- 模型调用函数 ---
-def get_qwen_response(instruction: str, user_input: str, model: str = "qwen3-30b-a3b") -> str:
+def get_qwen_response(instruction: str, user_input: str, model: str = "qwen3-32b") -> str:
     try:
         messages = [
             {"role": "system", "content": instruction},
@@ -203,7 +203,7 @@ if __name__ == "__main__":
 """
 
     # ==============================================================================
-    # ==                            核心：最终版工具列表                            ==
+    # ==                                  工具列表                                 ==
     # ==============================================================================
     all_tools_list = [
         # --- 订单 ---
